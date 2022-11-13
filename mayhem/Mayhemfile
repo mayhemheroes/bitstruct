@@ -1,0 +1,6 @@
+project: bitstruct
+target: pack-fuzz
+
+cmds:
+  - cmd: /src/mayhem/fuzz_pack.py
+    libfuzzer: true
