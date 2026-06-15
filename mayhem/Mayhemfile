@@ -1,0 +1,6 @@
+project: bitstruct
+target: pack-fuzz
+cmds:
+  - cmd: /mayhem/pack-fuzz
+    libfuzzer: true
+    timeout: 30
